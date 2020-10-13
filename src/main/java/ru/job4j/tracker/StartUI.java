@@ -13,7 +13,7 @@ public class StartUI {
         LocalDateTime currentDT = item.getCreated();
         String currentDateTimeFormat = currentDT.format(formatter);
         System.out.println("Текущие дата и время после форматирования: " + currentDateTimeFormat);
-
+        System.out.println(item);
     }
 
 

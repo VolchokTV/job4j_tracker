@@ -80,7 +80,7 @@ public class StartUI {
                 System.out.print("Enter name: ");
                 String name = scanner.nextLine();
                 Item[] resultOfFindByName =  tracker.findByName(name);
-                if (resultOfFindByName != null) {
+                if (resultOfFindByName.length != 0) {
                     // вывод об успешности операции
                     System.out.println();
                     System.out.println( "Item(s) with Name=" + name + " was find in tracker");

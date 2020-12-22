@@ -4,7 +4,7 @@ import ru.job4j.tracker.Item;
 
 public enum TrackerSingleEnum {
     INSTANCE;
-
+    private final Tracker tracker = new Tracker();
 
     public Item add(Item model) {
         return model;

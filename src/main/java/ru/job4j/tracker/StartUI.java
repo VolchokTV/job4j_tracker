@@ -37,7 +37,7 @@ public class StartUI {
                 new DeleteAction(output), new FindByIdAction(output),
                 new FindByNameAction(output), new Exit()};
         new StartUI(output).init(input, tracker, actions);
-
+    }
     //    Item item = new Item();
     //    DateTimeFormatter formatter = DateTimeFormatter.ofPattern("dd-MMMM-EEEE-yyyy HH:mm:ss");
     //    LocalDateTime currentDT = item.getCreated();
@@ -50,5 +50,5 @@ public class StartUI {
     //    Item alarmItem = trackerNoOne.add(itemNoOne);
     //    System.out.println(trackerNoOne.findById(1));
     //    System.out.println(trackerNoOne.findById(10));
-    }
+
 }
